@@ -1,5 +1,4 @@
 // QlTesting.cpp : Defines the entry point for the console application.
-#include "stdafx.h"
 
 #include <ql/quantlib.hpp>
 using namespace QuantLib;
@@ -40,7 +39,6 @@ using namespace QuantLib;
 //#include "Integration2.h"
 //#include "Integration3.h"
 //#include "Integration4.h"
-/*
 #include "Solver2.h"
 #include "Solver3.h"
 #include "Solver4.h"
@@ -67,6 +65,7 @@ using namespace QuantLib;
 #include "RandomNumbers4.h"
 #include "RandomNumbers5.h"
 
+/*
 #include "Null1.h"
 #include "Design2.h"
 #include "Design3.h"
@@ -136,136 +135,136 @@ using namespace QuantLib;
 
 // #include "Integration4.h"
 
-// #include "DateTesting1.h"
+#include "DateTesting1.h"
 
 
 // #include "YieldCurve9.h"
 
-int _tmain(int argc, _TCHAR* argv[])
+int main(int argc, char *argv[])
 {
-	try{
+    try{
 
-//		testingSingleton1();
-// testIntegration4();
-
-
-		// DateTesting1();
-
-// testingLazyObject1();
-
-//	testingMacros1();
-
-		
-//	DateTesting1();
-//	DateTesting2();
-//	DateTesting3();
-//	DateTesting4();
+        //      testingSingleton1();
+        // testIntegration4();
 
 
-//  	testingSingleton1();
-//		testingSingleton2();
+        // DateTesting1();
 
-//		testingMatrix3();
+        // testingLazyObject1();
 
-//		testingStochasticProcesses1();
-//		testingStochasticProcesses2();
-//		testingStochasticProcesses3();
-
-//		testingStochasticProcesses4();
-
-	//	testingVolatilityObjects1();
-	//	testingVolatilityObjects2();
+        //  testingMacros1();
 
 
-	//	testingBsPricingEngines1();
-	//	testingBlackScholesCalculator();
-
-	//	testingVisitor1();
-
-	//	testingNull();
-
-	//	testingBonds1();
-	//	testingBonds2();
-	//	testingBonds3();
-
-	//	testingSwaps1();
-	//	testingSwaps2();
+        DateTesting1();
+        //  DateTesting2();
+        //  DateTesting3();
+        //  DateTesting4();
 
 
-	//	testingCoupons1();
-	//	testingCoupons2();
-	//	testingCoupons3();
+        //      testingSingleton1();
+        //      testingSingleton2();
 
-	//	testingFactory1();
-	//	testingFactory2();
+        //      testingMatrix3();
 
-	//	testingNull1();
+        //      testingStochasticProcesses1();
+        //      testingStochasticProcesses2();
+        //      testingStochasticProcesses3();
 
-	//	testingYields1();
-	//	testingYields2();
-	//	testingYields3();
-	testingYields4();
-	//	testingYields5();
+        //      testingStochasticProcesses4();
 
-	//	testingIndexes1();
-	//	testHandle1();
-
-	//	testingDesignPatterns1();
-	//	testingDesignPatterns2();
-	//	testingDesignPatterns2a();
-	//	testingDesignPatterns3();
-	//	testingDesignPatterns4();
+        //  testingVolatilityObjects1();
+        //  testingVolatilityObjects2();
 
 
-//	testingRandomNumbers1();
-//	testingRandomNumbers2();
-//	testingRandomNumbers3();
-//	testingRandomNumbers4();
-//	testingRandomNumbers5();
+        //  testingBsPricingEngines1();
+        //  testingBlackScholesCalculator();
 
-//	testOptimizer2();
+        //  testingVisitor1();
 
-//	testingInterpolations1();
-//	testingInterpolations2();
-//	testingInterpolations3();
-//	testingInterpolations4();
+        //  testingNull();
 
-//	testingMatrix1();
-//	testingMatrix2();
+        //  testingBonds1();
+        //  testingBonds2();
+        //  testingBonds3();
 
-//	testCopulas1();
-
-//	testIntegration1();
-//	testIntegration2();
-//	testIntegration3();
-//	testIntegration4();
-
-//	testSolver1();
-//	testSolver2();
-
-//	CalendarTesting1();
-//	CalendarTesting2();
-//	CalendarTesting3();
-
-//	dayCounterTesting1();
-//	testingMacros1();
-//	testingMacros2();
-
-//	testingSchedule1();
-//	testingSchedule3();
-//	testingSchedule4();
+        //  testingSwaps1();
+        //  testingSwaps2();
 
 
-	} catch (std::exception& e) {
+        //  testingCoupons1();
+        //  testingCoupons2();
+        //  testingCoupons3();
+
+        //  testingFactory1();
+        //  testingFactory2();
+
+        //  testingNull1();
+
+        //  testingYields1();
+        //  testingYields2();
+        //  testingYields3();
+        //testingYields4();
+        //  testingYields5();
+
+        //  testingIndexes1();
+        //  testHandle1();
+
+        //  testingDesignPatterns1();
+        //  testingDesignPatterns2();
+        //  testingDesignPatterns2a();
+        //  testingDesignPatterns3();
+        //  testingDesignPatterns4();
+
+
+        testingRandomNumbers1();
+        //  testingRandomNumbers2();
+        //  testingRandomNumbers3();
+        //  testingRandomNumbers4();
+        //  testingRandomNumbers5();
+
+        //  testOptimizer2();
+
+        //  testingInterpolations1();
+        //  testingInterpolations2();
+        //  testingInterpolations3();
+        //  testingInterpolations4();
+
+        //  testingMatrix1();
+        //  testingMatrix2();
+
+        //  testCopulas1();
+
+        //  testIntegration1();
+        //  testIntegration2();
+        //  testIntegration3();
+        //  testIntegration4();
+
+        //  testSolver1();
+        //  testSolver2();
+
+        //  CalendarTesting1();
+        //  CalendarTesting2();
+        //  CalendarTesting3();
+
+        //  dayCounterTesting1();
+        //  testingMacros1();
+        //  testingMacros2();
+
+        //  testingSchedule1();
+        //  testingSchedule3();
+        //  testingSchedule4();
+
+
+    } catch (std::exception& e) {
         std::cout << e.what() << std::endl;
-		    return 1;
+        return 1;
     } catch (...) {
         std::cout << "unknown error" << std::endl;
-	       return 1;
+        return 1;
     }
 
 
-	return 0;
+    return 0;
 }
 
 

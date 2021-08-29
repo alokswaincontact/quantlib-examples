@@ -14,7 +14,7 @@ void CalendarTesting2(){
 	std::cout << "Is Business Day:" << frankfCal.isBusinessDay(d2) << std::endl;
 	std::cout << "Is Business Day:" << frankfCal.isBusinessDay(d3) << std::endl;
 
-	std::vector<Date> holidayVec=frankfCal.holidayList(frankfCal,d1,d2,false);
+	std::vector<Date> holidayVec=frankfCal.holidayList(d1,d2,false);
 	std::cout << "----------" << std::endl;
 	BOOST_FOREACH(Date d,holidayVec) std::cout << d << std::endl;
 }

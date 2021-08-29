@@ -1,0 +1,6 @@
+[requires]
+quantlib/1.22
+
+[generators]
+cmake
+

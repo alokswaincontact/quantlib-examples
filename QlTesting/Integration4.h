@@ -24,7 +24,7 @@ void testIntegration4(){
 	Real a=strike, b=strike*10.0; 
 
 	boost::function<Real (Real)> ptrF;
-	ptrF=boost::bind(&callFunc,spot,strike,r,vol,tau,_1);
+	ptrF=boost::bind(&callFunc,spot,strike,r,vol,tau, std::placeholders::_1);
 
 	Real absAcc=0.00001;
 	Size maxEval=1000;

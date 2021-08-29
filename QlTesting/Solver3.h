@@ -17,7 +17,7 @@ void testSolver1(){
 	// setup a boost function
 	boost::function<Real (Volatility)> myVolFunc;
 	// bind the boost function to all market parameters, keep vol as variant
-	myVolFunc=boost::bind(&impliedVolProblem,spot,strike,rd,rf,_1,tau,phi,price);
+	myVolFunc=boost::bind(&impliedVolProblem,spot,strike,rd,rf,std::placeholders::_1,tau,phi,price);
 	// solve the problem
 	Real res1=mySolv1.solve(myVolFunc,accuracy,guess,min,max);
 	Real res2=mySolv2.solve(myVolFunc,accuracy,guess,min,max);

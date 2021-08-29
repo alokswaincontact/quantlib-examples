@@ -11,7 +11,7 @@ Real evInv(boost::math::extreme_value_distribution<> d, const Real& x){
 void testingRandomNumbers3(){
 
 	boost::math::extreme_value_distribution<> d(0.0,0.1);
-	boost::function<Real (Real)> invEv=boost::bind(evInv,d,_1);
+	boost::function<Real (Real)> invEv=boost::bind(evInv,d, std::placeholders::_1);
 
 	// Mersenne Twister setup
 	BigInteger seed=12324;
